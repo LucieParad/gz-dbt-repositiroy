@@ -5,9 +5,11 @@ sources:
     tables:
       - name: product
         identifier: gz_product
-        
+        description: product of Greenwiz / we have one row per product_id and for his product_price associated 
       - name: sales
         identifier: gz_sales
+        description: sales of Greenweez / we have one row per products_id found in each orders_id
 
       - name: ship
         identifier: gz_ship
+        description: shiphing fee and cost / we have one row per orders_id and the shipping_fee, logcost and ship_cost associated 
