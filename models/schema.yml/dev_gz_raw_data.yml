@@ -13,3 +13,20 @@ sources:
       - name: ship
         identifier: gz_ship
         description: shiphing fee and cost / we have one row per orders_id and the shipping_fee, logcost and ship_cost associated 
+
+        
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: information sur les campagnes de pub sur adwords / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click
+
+      - name: facebook
+        identifier: raw_gz_facebbok
+        description: information sur les campagnes de pub sur facebook / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click  
+
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: information sur les campagnes de pub sur criteo / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click 
+
+      - name: bing
+        identifier: raw_gz_bing
+        description: information sur les campagnes de pub sur bing / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click 
