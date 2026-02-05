@@ -30,3 +30,11 @@ sources:
       - name: bing
         identifier: raw_gz_bing
         description: information sur les campagnes de pub sur bing / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click 
+
+models:
+  - name: int_campaigns 
+    columns:
+      - name: campaign_key
+        tests:
+          - not_null
+          
