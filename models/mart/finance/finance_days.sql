@@ -1,5 +1,3 @@
- {{ config(materialized='table') }}
-
 with
     sum_table as (
 
