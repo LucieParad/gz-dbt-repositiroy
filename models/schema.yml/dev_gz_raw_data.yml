@@ -20,7 +20,7 @@ sources:
         description: information sur les campagnes de pub sur adwords / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click
 
       - name: facebook
-        identifier: raw_gz_facebbok
+        identifier: raw_gz_facebook
         description: information sur les campagnes de pub sur facebook / we have one row per campaign_key and the date, paid_source, campaign,name,ads_cost, impression, click  
 
       - name: criteo

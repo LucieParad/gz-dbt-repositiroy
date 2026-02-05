@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('gz_raw_data', 'adwords') }}
+    select * from {{ source('gz_raw_data', 'criteo') }}
 
 ),
 
@@ -13,7 +13,7 @@ renamed as (
         paid_source,
         campaign_key,
         campgn_name as campaign_name,
-        CAST (ads_cost as float64),
+        CAST (ads_cost as FLOAT64),
         impression,
         click
 
